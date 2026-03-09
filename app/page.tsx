@@ -107,7 +107,7 @@ export default function HomePage() {
       <nav style={{ position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50, borderBottom: `1px solid ${T.border}`, background: 'rgba(10,12,16,0.85)', backdropFilter: 'blur(16px)' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '16px 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <div style={{ width: 26, height: 26, borderRadius: 7, background: `linear-gradient(135deg,${T.teal},#38b2ac)`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13 }}>🌊</div>
+            <span style={{ fontFamily: "'DM Serif Display',Georgia,serif", fontSize: 28, color: T.teal, lineHeight: 1, fontStyle: 'italic' }}>~</span>
             <span style={{ fontWeight: 700, fontSize: 15, color: T.white, letterSpacing: '-.2px' }}>Waterfall</span>
           </div>
           <div style={{ display: 'flex', gap: 32, alignItems: 'center' }}>
@@ -288,7 +288,7 @@ export default function HomePage() {
       {/* Footer */}
       <div style={{ borderTop: `1px solid ${T.border}`, padding: '28px 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap' as const, gap: 12 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <div style={{ width: 20, height: 20, borderRadius: 5, background: `linear-gradient(135deg,${T.teal},#38b2ac)`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 10 }}>🌊</div>
+          <span style={{ fontFamily: "'DM Serif Display',Georgia,serif", fontSize: 22, color: T.teal, fontStyle: 'italic', lineHeight: 1 }}>~</span>
           <span style={{ fontWeight: 600, fontSize: 13, color: T.white }}>Waterfall</span>
         </div>
         <p style={{ color: T.faint, fontSize: 12, letterSpacing: '.03em' }}>Educational framework only · Not personalized financial advice</p>
